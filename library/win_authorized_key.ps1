@@ -394,7 +394,7 @@ function writefile {
         $PF = $env:ProgramFiles
     }
 
-    $OpenSSHPSUtilityScriptDir = "$PF\OpenSSH-Win$($OSBits)"
+    $OpenSSHPSUtilityScriptDir = "$PF\OpenSSH"
 
     $modulePath = "$OpenSSHPSUtilityScriptDir\OpenSSHUtils.psm1"
     if (Test-Path -Path $modulePath) {
